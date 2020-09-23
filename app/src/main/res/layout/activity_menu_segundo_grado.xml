@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_background_segundo_grado"
+    tools:context="com.example.appalumnosdeprimaria.MainActivity">
+
+    <TextView
+        android:id="@+id/grado_escolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:text="SEGUNDO GRADO"
+        android:textColor="#ffffff"
+        android:background="#444444"
+        android:textSize="30dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/grado_escolar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnEducacionSocioemocional"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:textSize="20dp"
+                android:text="Educación Socioemocional"
+                android:background="#FCC54E"
+                android:textColor="#1A2049" />
+
+            <Button
+                android:id="@+id/btnArtes"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btnEducacionSocioemocional"
+                android:textSize="20dp"
+                android:text="Artes"
+                android:background="#FCC54E"
+                android:textColor="#1A2049" />
+
+            <Button
+                android:id="@+id/btnConocimientoDelMedio"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btnArtes"
+                android:textSize="20dp"
+                android:text="Conocimiento del Medio"
+                android:background="#FCC54E"
+                android:textColor="#1A2049" />
+
+            <Button
+                android:id="@+id/btnLenguaMaterna"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btnConocimientoDelMedio"
+                android:textSize="20dp"
+                android:text="Lengua Materna"
+                android:background="#FCC54E"
+                android:textColor="#1A2049" />
+
+            <Button
+                android:id="@+id/btnMatematicas"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btnLenguaMaterna"
+                android:textSize="20dp"
+                android:text="Matemáticas"
+                android:background="#FCC54E"
+                android:textColor="#1A2049" />
+
+            <Button
+                android:id="@+id/btnEducacionFisica"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btnMatematicas"
+                android:textSize="20dp"
+                android:text="Educación Física"
+                android:background="#FCC54E"
+                android:textColor="#1A2049" />
+
+            <Button
+                android:id="@+id/btnCivicaYEtica"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btnEducacionFisica"
+                android:textSize="20dp"
+                android:text="Formación Cívica y Ética"
+                android:background="#FCC54E"
+                android:textColor="#1A2049" />
+
+            <Button
+                android:id="@+id/btnVidaSaludable"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btnCivicaYEtica"
+                android:textSize="20dp"
+                android:text="Vida Saludable"
+                android:background="#FCC54E"
+                android:textColor="#1A2049" />
+
+            <Button
+                android:id="@+id/btnIngles"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btnVidaSaludable"
+                android:textSize="20dp"
+                android:text="Inglés"
+                android:background="#FCC54E"
+                android:textColor="#1A2049" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

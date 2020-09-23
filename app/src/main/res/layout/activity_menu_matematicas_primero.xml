@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_background_primer_grado"
+    tools:context="com.example.appalumnosdeprimaria.temasPrimerGrado.MenuMatematicasPrimero">
+
+    <TextView
+        android:id="@+id/materia_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:text="MATEMATICAS"
+        android:textColor="#ffffff"
+        android:background="#444444"
+        android:textSize="30dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/materia_1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnTema1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:onClick="verTema1"
+                android:textSize="20dp"
+                android:text="Tema 1"
+                android:background="#CF4444"
+                android:textColor="#A9FCED" />
+
+            <Button
+                android:id="@+id/btnTema2"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btnTema1"
+                android:textSize="20dp"
+                android:text="Tema 2"
+                android:background="#CF4444"
+                android:textColor="#A9FCED" />
+
+            <Button
+                android:id="@+id/btnTema3"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/btnTema2"
+                android:textSize="20dp"
+                android:text="Tema 3"
+                android:background="#CF4444"
+                android:textColor="#A9FCED" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

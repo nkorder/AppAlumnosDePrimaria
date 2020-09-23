@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.appalumnosdeprimaria.temasPrimerGrado.matematicas.Tema1">
+
+    <TextView
+        android:id="@+id/tema1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:text="NUMEROS DEL 1 AL 10"
+        android:textColor="#ffffff"
+        android:background="#444444"
+        android:textSize="30dp"/>
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tema1"
+        android:numColumns="2"/>
+
+</RelativeLayout>
